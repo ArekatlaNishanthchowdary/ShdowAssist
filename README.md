@@ -26,18 +26,21 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 
 ## What it is
 
-OpenCluely is a desktop app for technical interviews and practice. It places a small overlay on your screen that recording and conferencing tools do not capture. You can speak a question or take a screenshot, and the AI answers in real time. The answer streams into a floating window and an optional chat panel, with clean code blocks and syntax highlighting.
+**ShadowAssist** is an invisible desktop AI copilot designed for technical interviews, coding challenges, system design discussions, and theory concepts. It places a small, stealth overlay on your screen that is completely invisible to screen sharing and recording tools (Zoom, Google Meet, Microsoft Teams, Discord, OBS).
 
-It is free and open source. Processing stays on your machine, and the only thing that leaves your device is the request you send to the AI provider.
+Speak your question naturally or capture a screenshot, and get real-time streamed answers powered by Google Gemini or Claude Code.
 
-## Highlights
+## Key Features & Skill Modes
 
-- **Invisible overlay.** Windows stay out of Zoom, Google Meet, Microsoft Teams, Discord, and OBS captures. You see the answer, the call does not.
-- **Hidden during screen share.** When a share starts, the app can hide every window on its own.
-- **Flexible local voice.** Choose manual start/stop capture or automatic voice-activity detection without fixed-timer sentence cuts.
-- **Configurable streamed answers.** Route voice replies to chat, the floating overlay, or both.
-- **Direct image analysis.** Screenshots go straight to Gemini for visual reasoning, with no slow OCR step in between.
-- **Switchable AI backend.** Route voice and text through Gemini or a local Claude Code CLI, picked in Settings. Screenshots stay Gemini-only.
+- **Invisible Overlay (`WDA_EXCLUDEFROMCAPTURE`)**: Stays hidden from Zoom, Google Meet, Teams, Discord, and OBS screen capture APIs.
+- **4 Dedicated Skill Modes**:
+  - **DSA (Data Structures & Algorithms)**: Optimal logic, time/space complexity, and production-ready code in Python, C++, Java, C, or JS.
+  - **Theory / Concepts**: CS Theory, Protocols, Databases, DevOps tools (Kubernetes, Docker, Git, REST, Kafka, Linux), OS & Networking definitions.
+  - **System Design**: Distributed systems architecture, storage choices (SQL/NoSQL/Cache), scalability, bottlenecks, and CAP trade-offs.
+  - **All 3 Loaded**: Universal auto-detection mode that formats responses based on the question type.
+- **Voice AI & Local Whisper**: Hands-free voice input using local Whisper or Azure Speech SDK with VAD (Voice Activity Detection).
+- **Direct Visual Screenshot OCR/Analysis**: Instant high-speed multimodal screenshot reasoning.
+- **Silent Background Execution**: Ships with zero-console silent launchers (`Start.vbs`, `Stop.vbs`).
 - **Session memory.** The whole conversation is remembered, so follow-ups, edge cases, and optimizations keep their context.
 - **Language aware.** Tailored answers for C++, C, Python, Java, and JavaScript.
 - **Stealthy by design.** Runs under ordinary system names, ships with no telemetry, and keeps your session local.

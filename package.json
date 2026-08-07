@@ -1,7 +1,7 @@
 {
   "name": "opencluely",
   "version": "1.0.0",
-  "description": "AI Problem Solving Assistant",
+  "description": "ShadowAssist — Invisible AI Interview & Problem Solving Copilot (DSA, Theory, System Design & Voice AI)",
   "main": "main.js",
   "scripts": {
     "start": "node scripts/start.js",
