@@ -4,7 +4,7 @@
 
 **The invisible AI interview copilot.**
 
-Real-time AI help on a stealth overlay that screen sharing cannot see. Ask by voice or screenshot, and get clear answers that stream in as you need them.
+Real-time AI help on a stealth overlay that screen sharing cannot see. Ask by voice or screenshot, and get clear answers that stream in as you need them. It stays invisible in Task Manager too, disguising itself as a background process rather than a running app.
 
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-111111?style=for-the-badge&labelColor=000000" alt="MIT License" /></a>
