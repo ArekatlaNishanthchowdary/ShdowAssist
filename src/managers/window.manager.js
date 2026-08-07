@@ -628,9 +628,9 @@ class WindowManager {
     // Hide from taskbar to maintain stealth
     window.setSkipTaskbar(true);
     
-    // Content protection disabled temporarily for screen recording / demo recording purpose
+    // Make window undetectable by screen capture (if supported)
     try {
-      window.setContentProtection(false);
+      window.setContentProtection(true);
       if (process.platform === 'linux' && !this._warnedNoContentProtection) {
         this._warnedNoContentProtection = true;
         logger.warn('Screen-capture protection is unavailable on Linux (Electron limitation). The overlay WILL be visible in screen shares. This stealth feature only works on macOS and Windows.');
