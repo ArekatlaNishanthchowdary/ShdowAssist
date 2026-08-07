@@ -16,10 +16,6 @@ Real-time AI help on a stealth overlay that screen sharing cannot see. Ask by vo
 
 </div>
 
-## Demo
-
-https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
-
 ## What it is
 
 **ShadowAssist** is an invisible desktop AI copilot designed for technical interviews, coding challenges, system design discussions, and theory concepts. It places a small, stealth overlay on your screen that is completely invisible to screen sharing and recording tools (Zoom, Google Meet, Microsoft Teams, Discord, OBS).
