@@ -20,7 +20,7 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "author": {
-    "name": "Senpai",
+    "name": "Nishanth",
     "email": "info@techycsr.dev",
     "url": "https://techycsr.dev"
   },

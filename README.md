@@ -215,6 +215,6 @@ Released under the MIT License. See [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-Built by Senpai. If ShadowAssist helped you, consider giving it a star ⭐
+Built by Nishanth. If ShadowAssist helped you, consider giving it a star ⭐
 
 </div>
