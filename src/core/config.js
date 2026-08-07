@@ -12,7 +12,7 @@ class ConfigManager {
     this.config = {
       app: {
         name: 'ShadowAssist',
-        version: '1.0.0',
+        version: '0.10.0',
         processTitle: 'ShadowAssist',
         dataDir: this.appDataDir,
         isDevelopment: this.env === 'development',
