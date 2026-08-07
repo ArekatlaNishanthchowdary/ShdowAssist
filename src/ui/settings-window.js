@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
             codingLanguageSelect.value = settings.codingLanguage || 'python';
         }
 
-        if (settings.activeSkill && activeSkillSelect) activeSkillSelect.value = settings.activeSkill;
+        if (activeSkillSelect) activeSkillSelect.value = settings.activeSkill || 'all';
 
         // Handle icon selection
         const selectedIcon = settings.selectedIcon || settings.appIcon;
