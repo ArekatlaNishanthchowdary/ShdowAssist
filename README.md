@@ -213,13 +213,6 @@ The app is built for learning and practice. You are responsible for following th
 
 Released under the MIT License. See [LICENSE](LICENSE) for details.
 
-## Acknowledgments
-
-- Google Gemini for the AI reasoning
-- Azure Speech and OpenAI Whisper for optional voice input
-- Electron for the cross platform desktop runtime
-- [Vysper by varun-singhh](https://github.com/varun-singhh/Vysper) for UI and structure inspiration
-
 <div align="center">
 
 Built by Senpai. If ShadowAssist helped you, consider giving it a star ⭐
