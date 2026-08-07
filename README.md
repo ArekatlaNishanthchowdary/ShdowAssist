@@ -65,6 +65,8 @@ Three steps are all it takes.
 
    On first launch the Settings window opens automatically. Get a free key from [Google AI Studio](https://aistudio.google.com/) and paste it in, or edit `.env` directly. Both work, and changes are picked up without a restart. Prefer Claude instead? Switch the AI provider to Claude Code in Settings — no API key needed if you're already logged into the CLI.
 
+After setup, use `Start.vbs` to launch the app silently in the background and `Stop.vbs` to shut it down — just double-click either one (Windows only).
+
 ### Platform notes
 
 - On Windows, use Git Bash (included with Git for Windows) or WSL to run `setup.sh`.
